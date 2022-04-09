@@ -21,6 +21,11 @@ header{
     color: #f8f8f8;
     margin: 0 10px;
 }
+.header-container div h1 #jet-icon{
+    color: red;
+    margin: 0 5px;
+    transform: rotate(45deg);
+}
 .header-container nav ul{
     display: flex;
     justify-content: center;
