@@ -78,7 +78,7 @@ section{
 
 /* MAIN - GALLERY  */
 #first-img, #second-img, #third-img {
-    max-width: 400px;
+    max-width: 250px;
     border: solid 2px rgb(215, 253, 0);
     border-radius: 10px;
     margin: 10px;
