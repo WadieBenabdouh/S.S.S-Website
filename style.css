@@ -86,7 +86,13 @@ section{
 .gallery-wrapper{
     background-color: rgb(53, 53, 53);
     display: flex;
-    /* justify-content: space-between; */
     justify-content: center;
     flex-wrap: wrap;
+}
+.card-one, .card-two, .card-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
 }
