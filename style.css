@@ -18,8 +18,7 @@ header{
     padding: 10px 0;
 }
 .header-container div h1{
-    color: #ffffff; 
-    /* color above is red */
+    color: #fff; 
     margin: 0 10px;
 }
 .header-container div h1 #jet-icon{
@@ -102,6 +101,59 @@ section{
     background-color: yellow;
     padding: 5px;
     border-radius: 20px;
+}
+
+/* FOOTER */
+footer{
+    background: linear-gradient(109.6deg, #a59696ed 11.2%, #82ad9d 78.9%);
+    height: 10em;
+    border-top: solid 3px black;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-container div{
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+.footer-brand h4{
+    font-family: tahoma,sans-serif;
+}
+.footer-brand p{
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+}
+.footer-links{
+    margin-top: 10px;
+    background-color: #451fee;
+    border-radius: 10px;
+    padding: 5px;
+}
+.footer-links nav ul{
+    display: flex;
+}
+.footer-links nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.footer-links nav ul li a{
+    color: black;
+}
+.icons-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.fa-reddit-alien{
+    position: relative;
+    left: 10px;
+}
+.fa-instagram{
+    position: relative;
+    left: 10px;
 }
 
 
