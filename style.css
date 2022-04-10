@@ -74,5 +74,19 @@ section{
     border-radius: 50px;
     margin: 15px auto;
     font-size: 15px;
+}
 
+/* MAIN - GALLERY  */
+#first-img, #second-img, #third-img {
+    max-width: 400px;
+    border: solid 2px rgb(215, 253, 0);
+    border-radius: 10px;
+    margin: 10px;
+}
+.gallery-wrapper{
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    flex-wrap: wrap;
 }
