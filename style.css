@@ -18,7 +18,8 @@ header{
     padding: 10px 0;
 }
 .header-container div h1{
-    color: #f31d1d;
+    color: #f31d1d; 
+    /* color above is red */
     margin: 0 10px;
 }
 .header-container div h1 #jet-icon{
