@@ -96,3 +96,31 @@ section{
     align-items: center;
     margin: 15px 0;
 }
+.jet-name{
+    color: #000;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+/*<<|************* MEDIA QUERY *************|>>*/
+@media(max-width:768px){
+    
+    /* HEADER */
+    .header-container{
+        flex-direction: column;
+    }
+    
+    /* SECTION */
+    .section-container div a{
+        font-size: 10px;
+        margin: 0 25px;
+    }
+
+}
