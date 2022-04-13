@@ -43,6 +43,11 @@ nav ul li a{
     font-weight: bold;
 }
 
+/* ASIDE */
+#banner div h2{
+    text-align: center;
+}
+
 /* SECTION */
 section{
     height: 20em;
